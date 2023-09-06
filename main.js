@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Get the scroll-to-top button element
   const scrollToTopButton = document.getElementById("scrollToTop");
-  console.log(scrollToTopButton)
   // Function to scroll to the top of the page smoothly
   function scrollToTop() {
     window.scrollTo({
@@ -60,7 +59,6 @@ document.addEventListener("DOMContentLoaded", function () {
   // Get references to the hamburger and nav elements
   const hamburger = document.getElementById("hamburger");
   const nav = document.getElementById("nav");
-  console.log(hamburger, nav)
   // Add a click event listener to the hamburger icon
   hamburger.addEventListener("click", () => {
     // Toggle the visibility of the nav element
