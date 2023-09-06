@@ -69,5 +69,12 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
+  window.addEventListener('resize', () => {
+    console.log("rr", window.innerWidth)
+    if (window.innerWidth > 768) {
+      nav.style.display = "block"
+    }
+  })
+
 });
 
